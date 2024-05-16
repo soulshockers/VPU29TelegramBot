@@ -13,26 +13,6 @@ class MarkdownHandler(BaseHandler):
     @staticmethod
     async def callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         message = (
-            "Welcome to Markdown 2 Showcase Bot\!\n\n"
-           "You can use markdown syntax to format your messages\. Here are some examples:\n\n"
-           "*Bold Text*: **bold**\n"
-           "_Italic Text_: _italic_\n"
-           "[Inline URL](https://www\.example\.com)\n"
-           "[Inline mention of a user](tg://user?id=6570732383)\n"
-           "`Inline fixed-width code`\n"
-           "```Multi-line\nfixed-width\ncode block```\n"
-           "```python\nprint('Hello, world!')```\n"
-           "* Unordered list item 1\n"
-           "* Unordered list item 2\n"
-           "1\. Ordered list item 1\n"
-           "2\. Ordered list item 2\n"
-           "> Blockquotes are very handy in email to emulate reply text\.\n"
-           ">> This line is part of the same quote\.\n"
-           ">>> And this is another quote\.\n"
-           "For more information, refer to the [Markdown Documentation](https://core\.telegram\.org/bots/api#markdownv2-style)"
-           )
-
-        message = (
             "*bold text* \n"
             "_italic text_ \n"
             "__underline__ \n"
